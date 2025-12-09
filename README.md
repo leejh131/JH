@@ -150,4 +150,4 @@
 <br>
 
 ---
-© 2025 Lee Je-hyeon. All rights reserved.
+© 2025 Lee Jeahyeon. All rights reserved.
