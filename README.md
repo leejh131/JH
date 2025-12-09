@@ -1,8 +1,8 @@
-# ✈️ Travel Link: Secure & Efficient Admin System
+# Travel Link: Secure & Efficient Admin System
 
 <br>
 
-## 🙋‍♂️ About Me (개발자 소개)
+## About Me (개발자 소개)
 <table>
   <tr>
     <td align="center" width="200">
