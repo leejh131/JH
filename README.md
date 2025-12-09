@@ -19,7 +19,9 @@
       <br><br>
       📧 wpgusdl0503@gmail.com
       <br>
-      🐙 <a href="https://github.com/leejh131">GitHub: leejh131</a>
+<a href="https://github.com/leejh131" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-leejh131-181717?style=flat-square&logo=github">
+</a>
     </td>
   </tr>
 </table>
