@@ -16,9 +16,11 @@
       <br><br>
       단순한 기능 구현을 넘어, <b>데이터의 보안과 무결성</b>을 최우선으로 고려하며 시스템을 설계합니다.
       본 프로젝트에서는 사용자에게는 끊김 없는 경험(Seamless UX)을, 관리자에게는 업무 효율성(Efficiency)을 제공하는 핵심 모듈을 전담하여 개발했습니다.
-      <br><br>
+      <br>
       📧 wpgusdl0503@gmail.com
       <br>
+      📸 <a href="https://www.instagram.com/jjje_a_53/" target="_blank">Instagram: jjje_a_53</a>
+    </td>
 <a href="https://github.com/leejh131" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-leejh131-181717?style=flat-square&logo=github">
 </a>
