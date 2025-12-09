@@ -1,8 +1,8 @@
-# Travel Link: Secure & Efficient Admin System
+# ✈️ Travel Link: Secure & Efficient Admin System
 
 <br>
 
-## About Me (개발자 소개)
+## 🙋‍♂️ About Me (개발자 소개)
 <table>
   <tr>
     <td align="center" width="200">
@@ -17,11 +17,9 @@
       단순한 기능 구현을 넘어, <b>데이터의 보안과 무결성</b>을 최우선으로 고려하며 시스템을 설계합니다.
       본 프로젝트에서는 사용자에게는 끊김 없는 경험(Seamless UX)을, 관리자에게는 업무 효율성(Efficiency)을 제공하는 핵심 모듈을 전담하여 개발했습니다.
       <br><br>
-      Please contact me via:
+      📧 wpgusdl0503@gmail.com
       <br>
-      wpgusdl0503@gmail.com
-      <br>
-      GitHub: leejh131
+      🐙 <a href="https://github.com/leejh131">GitHub: leejh131</a>
     </td>
   </tr>
 </table>
