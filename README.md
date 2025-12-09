@@ -20,7 +20,7 @@
       📧 wpgusdl0503@gmail.com
       <br>
       📸 <a href="https://www.instagram.com/jjje_a_53/" target="_blank">Instagram: jjje_a_53</a>
-    </td>
+   <br>
 <a href="https://github.com/leejh131" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-leejh131-181717?style=flat-square&logo=github">
 </a>
