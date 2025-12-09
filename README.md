@@ -41,12 +41,32 @@
 <br>
 
 ## 2. 기술 스택 (Tech Stack)
-| Area | Stack |
-|:---:|:---|
-| **Frontend** | React, React Router, CSS Module |
-| **Backend** | FastAPI, Pydantic |
-| **Database** | MySQL, SQLAlchemy |
-| **Security** | Bcrypt, HttpOnly Cookie |
+<table width="100%">
+  <thead>
+    <tr style="border-bottom: 2px solid #ccc;">
+      <th width="30%" align="center">Area</th>
+      <th width="70%" align="center">Stack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><b>Frontend</b></td>
+      <td>React, React Router, CSS Module</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Backend</b></td>
+      <td>FastAPI, Pydantic</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Database</b></td>
+      <td>MySQL, SQLAlchemy</td>
+    </tr>
+    <tr>
+      <td align="center"><b>Security</b></td>
+      <td>Bcrypt, HttpOnly Cookie</td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
@@ -58,10 +78,24 @@
 이를 해결하기 위해 `useLocation State`를 활용, **기존 배경을 유지한 채 모달(Modal) 위에서 모든 인증 과정이 진행**되도록 구현하여 UX를 극대화했습니다.
 
 **[로그인 및 회원가입 화면]**
-| 로그인 (Login) | 회원가입 (Sign Up) |
-| :---: | :---: |
-| <img src="./images/login.PNG" width="100%"> | <img src="./images/join.PNG" width="100%"> |
-| *배경 유지를 통한 끊김 없는 UX 제공* | *실시간 유효성 검사 및 중복 체크* |
+<table width="100%">
+  <tr>
+    <td align="center">
+      <img src="./images/login.jpg" width="100%" alt="로그인 모달 화면">
+    </td>
+    <td align="center">
+      <img src="./images/join.jpg" width="100%" alt="회원가입 모달 화면">
+    </td>
+  </tr>
+  <tr style="font-size: small;">
+    <td align="center">
+      *배경 유지를 통한 끊김 없는 UX 제공*
+    </td>
+    <td align="center">
+      *실시간 유효성 검사 및 중복 체크*
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -69,7 +103,7 @@
 사용자가 계정 정보를 잊었을 때를 대비해, 보안을 고려한 아이디/비밀번호 찾기 프로세스를 별도 모달로 구현했습니다.
 
 <div align="center">
-  <img src="./images/findpw.PNG" width="60%">
+  <img src="./images/findpw.jpg" width="60%" alt="비밀번호 찾기 모달 화면">
 </div>
 
 <br>
@@ -81,8 +115,10 @@
 관리자가 수십 명의 회원 권한을 수정해야 할 때, 기존의 개별 API 요청 방식은 서버에 과도한 부하를 주었습니다.
 이를 개선하기 위해 **ID 배열을 받아 `IN` 쿼리로 처리하는 Bulk Update API**를 개발하여, 단 1회의 트랜잭션으로 모든 요청을 처리하도록 최적화했습니다.
 
-![Admin User Management](./images/admin.PNG)
-*(관리자 권한 부여/해제 및 사용자 삭제를 일괄 처리하는 화면)*
+<div align="center">
+  <img src="./images/admin.PNG" width="95%" alt="관리자 유저 관리 목록">
+  <p style="font-size: small;">*관리자 권한 부여/해제 및 사용자 삭제를 일괄 처리하는 화면*</p>
+</div>
 
 <br>
 
@@ -93,17 +129,25 @@
 사용자는 본인의 문의 내역을 상태별(처리중/완료)로 확인할 수 있으며, 관리자는 전용 페이지에서 즉시 답변을 등록할 수 있습니다.
 
 **[사용자: 문의 작성 및 내역 확인]**
-<div style="display: flex; gap: 10px;">
-  <img src="./images/contact.PNG" width="48%">
-  <img src="./images/contactuser.PNG" width="48%">
-</div>
+<table width="100%">
+  <tr>
+    <td align="center">
+      <img src="./images/contact.PNG" width="100%" alt="문의 작성 폼">
+    </td>
+    <td align="center">
+      <img src="./images/contactuser.PNG" width="100%" alt="사용자 문의 내역">
+    </td>
+  </tr>
+</table>
 
 <br>
 
 **[관리자: 답변 등록 관리]**
-![Admin Contact Management](./images/contactadmin.PNG)
+<div align="center">
+  <img src="./images/contactadmin.PNG" width="95%" alt="관리자 문의 답변 화면">
+</div>
 
 <br>
 
 ---
-© 2025 Lee Jeahyeon. All rights reserved.
+© 2025 Lee Je-hyeon. All rights reserved.
