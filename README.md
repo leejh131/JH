@@ -16,14 +16,12 @@
       <br><br>
       단순한 기능 구현을 넘어, <b>데이터의 보안과 무결성</b>을 최우선으로 고려하며 시스템을 설계합니다.
       본 프로젝트에서는 사용자에게는 끊김 없는 경험(Seamless UX)을, 관리자에게는 업무 효율성(Efficiency)을 제공하는 핵심 모듈을 전담하여 개발했습니다.
-      <br>
+      <br><br>
       📧 wpgusdl0503@gmail.com
       <br>
+      🐙 <a href="https://github.com/leejh131">GitHub: leejh131</a>
+      <br>
       📸 <a href="https://www.instagram.com/jjje_a_53/" target="_blank">Instagram: jjje_a_53</a>
-   <br>
-<a href="https://github.com/leejh131" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-leejh131-181717?style=flat-square&logo=github">
-</a>
     </td>
   </tr>
 </table>
@@ -40,7 +38,7 @@
 * **주요 기여:**
     * **Seamless Auth:** 페이지 이탈 없는 모달 기반 인증 시스템 구축
     * **Performance:** 대량 데이터 일괄 처리를 통한 관리자 업무 효율 300% 증대 (N번 요청 -> 1번)
-    * **Security:** Bcrypt 암호화 및 HttpOnly Cookie를 활용한 철저한 보안 설계
+    * **Security:** **관리자도 알 수 없는 Hash 기반 비밀번호 저장** 및 HttpOnly Cookie를 활용한 철저한 보안 설계
 
 <br>
 
@@ -103,12 +101,46 @@
 
 <br>
 
-**[계정 찾기 모달]**
-사용자가 계정 정보를 잊었을 때를 대비해, 보안을 고려한 아이디/비밀번호 찾기 프로세스를 별도 모달로 구현했습니다.
+**[계정 찾기 프로세스 (Find Account Flow)]**
+<table width="100%">
+  <tr>
+    <td align="center">
+      <img src="./images/findid.PNG" width="100%" alt="아이디 찾기 폼">
+    </td>
+    <td align="center">
+      <img src="./images/find.PNG" width="100%" alt="아이디 찾기 결과 화면">
+    </td>
+  </tr>
+  <tr style="font-size: small;">
+    <td align="center">
+      *이메일 기반으로 아이디 검색*
+    </td>
+    <td align="center">
+      *찾은 아이디를 사용자에게 안내*
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-  <img src="./images/findpw.PNG" width="60%" alt="비밀번호 찾기 모달 화면">
-</div>
+<br>
+
+<table width="100%">
+  <tr>
+    <td align="center">
+      <img src="./images/findpw.PNG" width="100%" alt="비밀번호 찾기 폼">
+    </td>
+    <td align="center">
+      <img src="./images/pw.PNG" width="100%" alt="임시 비밀번호 발급 완료 화면">
+    </td>
+  </tr>
+  <tr style="font-size: small;">
+    <td align="center">
+      *임시 비밀번호 발급 요청 폼*
+    </td>
+    <td align="center">
+      *임시 비밀번호를 발급하여 보안 강화*
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -136,10 +168,10 @@
 <table width="100%">
   <tr>
     <td align="center">
-      <img src="./images/contact.PNG" width="100%" alt="문의 작성 폼">
+      <img src="./images/contact.PNG" width="48%">
     </td>
     <td align="center">
-      <img src="./images/contactuser.PNG" width="100%" alt="사용자 문의 내역">
+      <img src="./images/contactuser.PNG" width="48%">
     </td>
   </tr>
 </table>
@@ -154,4 +186,19 @@
 <br>
 
 ---
-© 2025 Lee Jeahyeon. All rights reserved.
+
+### 🛡️ 4. 데이터 보안 전략 (Security Strategy)
+
+**"관리자도 사용자 비밀번호를 절대 알 수 없는 환경 설계"**
+
+* **비밀번호 저장 원칙:** 비밀번호는 DB에 저장되기 전, Bcrypt 라이브러리를 사용하여 **단방향 Hash 값**으로 변환했습니다. Salt(무작위 문자열)를 추가하여 Hash의 무결성을 높였으며, 이를 통해 **관리자를 포함하여 누구도 원본 비밀번호를 복호화할 수 없도록** 설계했습니다.
+* **세션 보안 (XSS 방지):** 사용자 인증 정보를 담는 세션 쿠키에 `HttpOnly` 옵션을 활성화하여, 클라이언트 측 JavaScript를 통한 해커의 세션(토큰) 접근을 원천 차단했습니다.
+
+<div align="center">
+  <img src="./images/security_hash.png" width="95%" alt="Bcrypt 해싱 코드 예시">
+</div>
+
+<br>
+
+---
+© 2025 Lee Je-hyeon. All rights reserved.
