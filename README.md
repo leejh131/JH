@@ -1,19 +1,30 @@
 # ✈️ Travel Link: Secure & Efficient Admin System
 
-![Login Screen](./images/login.PNG)
-
 <br>
 
 ## 🙋‍♂️ About Me (개발자 소개)
-> **"안전한 인증부터 효율적인 관리자 기능까지, 서비스의 중추를 설계한 풀스택 개발자 이제현입니다."**
-
-단순한 기능 구현을 넘어, **데이터의 보안과 무결성**을 최우선으로 고려하며 시스템을 설계합니다.
-본 프로젝트에서는 사용자에게는 끊김 없는 경험(Seamless UX)을, 관리자에게는 업무 효율성(Efficiency)을 제공하는 핵심 모듈을 전담하여 개발했습니다.
-
-* **Name:** 이제현
-* **Role:** Lead Developer (Auth & Admin Module)
-* **Contact:** wpgusdl0503@gmail.com
-* **GitHub:** jjje_a_53
+<table>
+  <tr>
+    <td align="center" width="200">
+      <img src="./images/profile.jpg" width="150" style="border-radius: 50%;" alt="프로필 사진">
+      <br><br>
+      <b>이제현</b><br>
+      Lead Developer
+    </td>
+    <td>
+      <b>"안전한 인증부터 효율적인 관리자 기능까지,<br>서비스의 중추를 설계한 풀스택 개발자입니다."</b>
+      <br><br>
+      단순한 기능 구현을 넘어, <b>데이터의 보안과 무결성</b>을 최우선으로 고려하며 시스템을 설계합니다.
+      본 프로젝트에서는 사용자에게는 끊김 없는 경험(Seamless UX)을, 관리자에게는 업무 효율성(Efficiency)을 제공하는 핵심 모듈을 전담하여 개발했습니다.
+      <br><br>
+      Please contact me via:
+      <br>
+      📧 wpgusdl0503@gmail.com
+      <br>
+      🐙 GitHub: ljh_131
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -43,15 +54,25 @@
 
 ## 3. 핵심 기능 상세 (Key Features)
 
-### 🔐 1. 사용자 흐름을 지키는 인증 시스템
+### 🔐 1. 사용자 흐름을 지키는 인증 시스템 (Seamless Auth)
 **Problem & Solution:**
 기존의 페이지 이동 방식은 로그인 시 사용자가 보던 콘텐츠의 흐름을 끊는 문제가 있었습니다.
-이를 해결하기 위해 `useLocation State`를 활용, **기존 배경을 유지한 채 모달(Modal) 위에서 로그인/회원가입이 진행**되도록 구현하여 UX를 극대화했습니다.
+이를 해결하기 위해 `useLocation State`를 활용, **기존 배경을 유지한 채 모달(Modal) 위에서 모든 인증 과정이 진행**되도록 구현하여 UX를 극대화했습니다.
 
-| 회원가입 (Sign Up) | 아이디/비번 찾기 (Find Account) |
+**[로그인 및 회원가입 화면]**
+| 로그인 (Login) | 회원가입 (Sign Up) |
 | :---: | :---: |
-| <img src="./images/join.PNG" width="100%"> | <img src="./images/findpw.PNG" width="100%"> |
-| *유효성 검사 및 중복 확인 실시간 적용* | *보안을 고려한 임시 비밀번호 발급 로직* |
+| <img src="./images/login.PNG" width="100%"> | <img src="./images/join.PNG" width="100%"> |
+| *배경 유지를 통한 끊김 없는 UX 제공* | *실시간 유효성 검사 및 중복 체크* |
+
+<br>
+
+**[계정 찾기 모달]**
+사용자가 계정 정보를 잊었을 때를 대비해, 보안을 고려한 아이디/비밀번호 찾기 프로세스를 별도 모달로 구현했습니다.
+
+<div align="center">
+  <img src="./images/findpw.PNG" width="60%">
+</div>
 
 <br>
 
