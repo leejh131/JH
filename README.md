@@ -6,7 +6,7 @@
 <table>
   <tr>
     <td align="center" width="200">
-      <img src="./images/profile.jpg" width="150" style="border-radius: 50%;" alt="프로필 사진">
+      <img src="./images/gg.png" width="150" style="border-radius: 50%;" alt="프로필 사진">
       <br><br>
       <b>이제현</b><br>
       Lead Developer
@@ -21,7 +21,7 @@
       <br>
       📧 wpgusdl0503@gmail.com
       <br>
-      🐙 GitHub: leejh_131
+      🐙 GitHub: leejh131
     </td>
   </tr>
 </table>
