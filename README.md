@@ -81,10 +81,10 @@
 <table width="100%">
   <tr>
     <td align="center">
-      <img src="./images/login.jpg" width="100%" alt="로그인 모달 화면">
+      <img src="./images/login.png" width="100%" alt="로그인 모달 화면">
     </td>
     <td align="center">
-      <img src="./images/join.jpg" width="100%" alt="회원가입 모달 화면">
+      <img src="./images/join.png" width="100%" alt="회원가입 모달 화면">
     </td>
   </tr>
   <tr style="font-size: small;">
@@ -103,7 +103,7 @@
 사용자가 계정 정보를 잊었을 때를 대비해, 보안을 고려한 아이디/비밀번호 찾기 프로세스를 별도 모달로 구현했습니다.
 
 <div align="center">
-  <img src="./images/findpw.jpg" width="60%" alt="비밀번호 찾기 모달 화면">
+  <img src="./images/findpw.png" width="60%" alt="비밀번호 찾기 모달 화면">
 </div>
 
 <br>
