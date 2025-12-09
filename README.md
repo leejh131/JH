@@ -195,7 +195,7 @@
 * **세션 보안 (XSS 방지):** 사용자 인증 정보를 담는 세션 쿠키에 `HttpOnly` 옵션을 활성화하여, 클라이언트 측 JavaScript를 통한 해커의 세션(토큰) 접근을 원천 차단했습니다.
 
 <div align="center">
-  <img src="./images/security_hash.PGN" width="95%" alt="Bcrypt 해싱 코드 예시">
+  <img src="./images/hash.PNG" width="95%" alt="Bcrypt 해싱 코드 예시">
 </div>
 
 <br>
