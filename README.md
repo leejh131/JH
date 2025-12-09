@@ -1,8 +1,8 @@
-# ✈️ Travel Link: Secure & Efficient Admin System
+# Travel Link: Secure & Efficient Admin System
 
 <br>
 
-## 🙋‍♂️ About Me (개발자 소개)
+## About Me (개발자 소개)
 <table>
   <tr>
     <td align="center" width="200">
@@ -19,9 +19,9 @@
       <br><br>
       Please contact me via:
       <br>
-      📧 wpgusdl0503@gmail.com
+      wpgusdl0503@gmail.com
       <br>
-      🐙 GitHub: leejh131
+      GitHub: leejh131
     </td>
   </tr>
 </table>
@@ -34,7 +34,7 @@
 **Travel Link**는 여행 동행 구인 및 커뮤니티 플랫폼입니다.
 저는 이 프로젝트에서 **인증(Auth), 관리자(Admin), 고객센터(Contact)** 파트의 기획부터 DB 설계, 프론트엔드/백엔드 개발까지 **100% 독자 수행**하였습니다.
 
-* **개발 기간:** 2025.XX ~ 2025.XX
+* **개발 기간:** 2025.03.04 ~ 2025.12.03
 * **주요 기여:**
     * **Seamless Auth:** 페이지 이탈 없는 모달 기반 인증 시스템 구축
     * **Performance:** 대량 데이터 일괄 처리를 통한 관리자 업무 효율 300% 증대 (N번 요청 -> 1번)
