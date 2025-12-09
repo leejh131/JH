@@ -21,7 +21,7 @@
       <br>
       📧 wpgusdl0503@gmail.com
       <br>
-      🐙 GitHub: ljh_131
+      🐙 GitHub: leejh_131
     </td>
   </tr>
 </table>
