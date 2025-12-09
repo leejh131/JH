@@ -2,7 +2,7 @@
 
 > **안전한 인증(로그인)부터 효율적인 관리자 기능까지, 서비스의 중추를 설계한 풀스택 개발자 이제현입니다.**
 
-![Login Screen](./images/login.jpg)
+![Login Screen](./images/login.PNG)
 
 <br>
 
@@ -37,7 +37,7 @@
 
 | 회원가입 (Sign Up) |
 | :---: |
-| <img src="./images/join.jpg" width="100%"> |
+| <img src="./images/join.PNG" width="100%"> |
 | **이메일 중복 확인 및 유효성 검사 적용** |
 
 <br>
@@ -47,7 +47,7 @@
 
 | 아이디 찾기 | 비밀번호 찾기 |
 | :---: | :---: |
-| <img src="./images/findid.jpg" width="100%"> | <img src="./images/findpw.jpg" width="100%"> |
+| <img src="./images/findid.PNG" width="100%"> | <img src="./images/findpw.PNG" width="100%"> |
 
 <br>
 
