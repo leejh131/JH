@@ -6,15 +6,16 @@
 </div>
 
 ## 👨‍💻 About Me
-<table width="100%" style="border: none;">
+
+<table>
   <tr>
-    <td align="center" width="200" style="border: none;">
-      <img src="./images/gg.png" width="150" style="border-radius: 50%; filter: grayscale(100%);" alt="Profile">
+    <td align="center" width="200">
+      <img src="./images/gg.png" width="150" alt="Profile" style="border-radius: 50%;">
       <br><br>
       <b>이제현</b><br>
       Lead Developer
     </td>
-    <td style="border: none;">
+    <td>
       <blockquote>
         <b>"안전한 인증부터 효율적인 관리자 기능까지,<br>서비스의 중추를 설계한 풀스택 개발자입니다."</b>
       </blockquote>
@@ -46,16 +47,13 @@
 <br>
 
 ## 2. 🛠 기술 스택 (Tech Stack)
-<div align="left">
 
 | Area | Stack |
 | :---: | :--- |
-| **Frontend** | ![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-000000?style=flat-square&logo=reactrouter&logoColor=white) ![CSS Module](https://img.shields.io/badge/CSS_Module-000000?style=flat-square&logo=css3&logoColor=white) |
-| **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=flat-square&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-000000?style=flat-square&logo=pydantic&logoColor=white) |
-| **Database** | ![MySQL](https://img.shields.io/badge/MySQL-000000?style=flat-square&logo=mysql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-000000?style=flat-square&logo=sqlalchemy&logoColor=white) |
-| **Security** | ![Bcrypt](https://img.shields.io/badge/Bcrypt-000000?style=flat-square&logo=security&logoColor=white) ![HttpOnly](https://img.shields.io/badge/HttpOnly_Cookie-000000?style=flat-square&logo=cookie&logoColor=white) |
-
-</div>
+| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=react-router&logoColor=white) ![CSS Module](https://img.shields.io/badge/CSS_Module-000000?style=flat-square&logo=css3&logoColor=white) |
+| **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white) |
+| **Database** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white) |
+| **Security** | ![Bcrypt](https://img.shields.io/badge/Bcrypt-3e3e3e?style=flat-square&logo=security&logoColor=white) ![HttpOnly](https://img.shields.io/badge/HttpOnly_Cookie-F7DF1E?style=flat-square&logo=cookie&logoColor=black) |
 
 <br>
 
@@ -166,7 +164,7 @@
 
 <div align="center">
   <br>
-  <img src="./images/hashs.png" width="90%" style="border: 1px solid #e0e0e0;" alt="Bcrypt Code">
+  <img src="./images/hashs.png" width="90%" alt="Bcrypt Code">
   <br><br>
 </div>
 
